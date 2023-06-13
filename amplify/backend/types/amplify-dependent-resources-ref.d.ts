@@ -1,4 +1,10 @@
 export type AmplifyDependentResourcesAttributes = {
+  "api": {
+    "amplifytripsplanner": {
+      "GraphQLAPIEndpointOutput": "string",
+      "GraphQLAPIIdOutput": "string"
+    }
+  },
   "auth": {
     "amplifytripsplannere8b42415": {
       "AppClientID": "string",
@@ -8,6 +14,12 @@ export type AmplifyDependentResourcesAttributes = {
       "UserPoolArn": "string",
       "UserPoolId": "string",
       "UserPoolName": "string"
+    }
+  },
+  "storage": {
+    "s30d485b1f": {
+      "BucketName": "string",
+      "Region": "string"
     }
   }
 }
